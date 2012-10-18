@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.example.mlkandroidchartapidemo"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@android:color/black">
+    
+    <mlk.androidchartapi.MlkLinesView
+		        android:id="@+id/lineChart"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+		        app:labelsColor="#CCFFFFFF"
+		        app:labelsSize="12dp"
+		        app:axisColor="#CCFFFFFF"
+		        app:linesColor="#FFFFFF00"
+		        app:gradientsTopColor="#FFFFFF00"
+		        app:gradientsBottomColor="#00FFFF00"
+		        app:sidewayText="Jitter (ms)"/>
+
+</RelativeLayout>

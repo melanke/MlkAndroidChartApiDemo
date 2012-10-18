@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.example.mlkandroidchartapidemo"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@android:color/black">
+    
+    <mlk.androidchartapi.MlkBarsView
+		        android:id="@+id/barChart"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+		        app:labelsColor="#CCFFFFFF"
+		        app:labelsSize="12dp"
+		        app:axisColor="#CCFFFFFF"
+		        app:barsFill="@drawable/vertical_white_gradient"/>
+
+</RelativeLayout>
