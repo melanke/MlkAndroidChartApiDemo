@@ -25,9 +25,9 @@ public class LineExampleActivity extends Activity {
 		lines.add(new MlkLine(values2));
 		
         float[] values = {1, 4, 2, 3, 5, 7, 6};
-		int lineColor = 0xFF0000FF;
-        int gradientTopColor = 0xFF0000FF;
-		int gradientBottomColor = 0x000000FF;
+		int lineColor = 0xFF0083ff;
+        int gradientTopColor = 0xFF0083ff;
+		int gradientBottomColor = 0x000083ff;
 		MlkLine line = new MlkLine(values);
 		line.setLineColor(lineColor);
 		line.setGradientColorsAreaFill(gradientTopColor, gradientBottomColor);

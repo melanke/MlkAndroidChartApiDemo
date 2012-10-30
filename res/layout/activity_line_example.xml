@@ -13,8 +13,8 @@
 		        app:labelsSize="12dp"
 		        app:axisColor="#CCFFFFFF"
 		        app:linesColor="#FFFFFF00"
-		        app:gradientsTopColor="#FFFFFF00"
-		        app:gradientsBottomColor="#00FFFF00"
+		        app:gradientsTopColor="#FFffe072"
+		        app:gradientsBottomColor="#00ffe072"
 		        app:sidewayText="Jitter (ms)"/>
 
 </RelativeLayout>

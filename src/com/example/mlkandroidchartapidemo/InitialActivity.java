@@ -18,7 +18,6 @@ public class InitialActivity extends Activity {
         
         ((Button)findViewById(R.id.barChartExampleButton)).setOnClickListener(new OnClickListener() {
 			
-			@Override
 			public void onClick(View v) {
 				
 				_this.startActivity(new Intent(_this, BarExempleActivity.class));
@@ -28,7 +27,6 @@ public class InitialActivity extends Activity {
 
         ((Button)findViewById(R.id.linesChartExampleButton)).setOnClickListener(new OnClickListener() {
 			
-			@Override
 			public void onClick(View v) {
 				
 				_this.startActivity(new Intent(_this, LineExampleActivity.class));
